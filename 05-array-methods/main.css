@@ -26,7 +26,48 @@ aside {
   flex-direction: column;
   padding: 10px 20px;
   border-right: 3px solid dimgray;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid dimgray;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
   font-size: 16px;
   font-weight: 700;
 }
 
+main {
+  flex: 1;
+  padding: 10px 20px;
+}
+
+h2 {
+  border-bottom: 1px solid dimgray;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+h2 {
+  background-color: white;
+  border-bottom: 1px solid dimgray;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: 20px 0 0;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
